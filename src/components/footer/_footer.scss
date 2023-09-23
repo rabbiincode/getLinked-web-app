@@ -1,0 +1,97 @@
+.footer{
+  position: relative;
+  background: #100B20;
+  padding: 5rem 8rem 2rem;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  .container-1{
+    .first{
+      width: 40%;
+      .text{
+        margin-top: 0.5rem;
+      }
+      .terms{
+        display: flex;
+        gap: 0.8rem;
+        margin-top: 2.5rem;
+        .line{
+          color: #D434FE;
+        }
+      }
+    }
+    .second{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .icons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+    .third{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      img{
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+      .list{
+        display: flex;
+        align-items: start;
+        gap: 0.5rem;
+      }
+      .align{
+        align-items: center;
+      }
+    }
+    .color{
+      color: #D434FE;
+    }
+  }
+
+  .rights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+    img{
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+  .img-1{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .img-2{
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+@media (max-width: 768px){
+  .footer{
+    padding: 5rem 2rem 3rem;
+    .container-1{
+      gap: 4rem;
+      .first{
+        width: 100%;
+      }
+    }
+  }
+}

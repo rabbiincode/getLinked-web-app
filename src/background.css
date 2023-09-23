@@ -1,0 +1,59 @@
+.bg-header{
+  background: url('/public/images/header/background.png'), lightgray  -155.25px -155px / 114.411% 118.9% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-home{
+  background: url('/public/images/header/home-bg.png'), lightgray -155.25px -155px / 114.411% 118.9% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-guidelines{
+  background: url(/public/images/header/background.png), lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-criteria{
+  background: url(/public/images/header/background.png), lightgray -155.25px -32px / 307.55% 103.65% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-faqs{
+  background: url(/public/images/header/background.png), lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-contact{
+  background: url(/public/images/header/background.png), lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-register{
+  background: url(/public/images/header/background.png), lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-rewards{
+  background: url(/public/images/header/background.png), lightgray 0px -0.093px / 100% 109.967% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-sponsors{
+  background: url(/public/images/header/background.png), lightgray -155.25px -32px / 307.55% 103.65% no-repeat;
+  background-color: #150E28;
+  background-blend-mode: hard-light;
+}
+
+.bg-policy{
+  //background: url(/public/images/header/background.png), lightgray -189.833px 0px / 178.652% 100% no-repeat;
+  background-color: #150E28;
+  //background-blend-mode: hard-light;
+}

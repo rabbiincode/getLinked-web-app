@@ -1,0 +1,39 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #ffffff2e;
+  z-index: 100;
+  .content{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    span{
+      cursor: pointer;
+    }
+  }
+  .add-border{
+    position: relative;
+    background: transparent;
+  }
+  .add-border::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 4px; 
+    padding: 1px; 
+    background:linear-gradient(to bottom, #9A39FF 20%, #FF29B9); 
+    -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude; 
+  }
+}
+.remove{
+  border: none;
+}

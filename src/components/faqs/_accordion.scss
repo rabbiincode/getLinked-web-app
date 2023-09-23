@@ -1,0 +1,24 @@
+.card{
+  position: relative;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0;
+  border-bottom: 1px solid #D434FE !important;
+  padding: 0 !important;
+}
+
+.question{
+  display: flex ;
+  align-items: center !important;
+  justify-content: space-between !important;
+  img{
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 1rem;
+  }
+  span{
+    padding: 1.5rem 0 0.6rem;
+  }
+}

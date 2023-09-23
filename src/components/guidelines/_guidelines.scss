@@ -1,0 +1,51 @@
+.guidelines{
+  border-top: 1px solid #ffffff2e;
+  padding: 0 8rem;
+  &-content{
+    position: relative;
+    width: 50%;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    .tech{
+      color: #D434FE;
+    }
+    .text{
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.5px;
+    }
+    .star{
+      position: absolute;
+      right: -3rem;
+    }
+    .star-1{
+      position: absolute;
+      top: -2rem;
+      left: 20rem;
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .guidelines{
+    flex-direction: column-reverse;
+    padding: 0 2rem 3rem;
+    &-content{
+      width: 80%;
+      text-align: center;
+      .text{
+        margin-bottom: 1rem;
+      }
+    }
+    .star{
+      left: 8rem;
+    }
+  }
+}

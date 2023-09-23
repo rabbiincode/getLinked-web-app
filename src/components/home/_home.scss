@@ -1,0 +1,176 @@
+.home{
+  padding-top: 5rem;
+  .bg-home{
+    .ignite{
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem 6rem 0 11.5rem;
+      .img-1{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 3rem;
+      }
+      .heading{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 2.25rem;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+        .img-2{
+          width: 14rem;
+          height: 0.75rem;
+        }
+      }
+    }
+
+    .landing-page{
+      padding: 0 0 0 8rem;
+      .home-text{
+        position: relative;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 2.5rem;
+        .star-1{
+          position: absolute;
+          top: -1rem;
+          right: -10rem;
+          width: 1.3rem;
+          height: 1.3rem;
+        }
+        .star-2{
+          position: absolute;
+          bottom: 15rem;
+          right: 4rem;
+          width: 1.3rem;
+          height: 1.3rem;
+        }
+      }
+
+      .get-linked{
+        img{
+          margin-right: 1.1rem;
+          margin-bottom: -1.5rem;
+        }
+      }
+      .number{
+        color: #D434FE;
+        font-family: Clash Display;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .hackathon{
+        align-items: center;
+        img{
+          width: 5.4rem;
+          height: 5.4rem;
+          margin-left: 1.5rem;
+        }
+      }
+      .participate{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 166%;
+        width: 75%;
+        margin-bottom: 2rem;
+      }
+      .time{
+        display: flex;
+        gap: 2rem;
+        margin-top: 4rem;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 3px;
+        small{
+          font-size: 0.8rem;
+          font-weight: 400;
+        }
+      }
+      .person{
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        height: 44.70rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img-1{
+          max-width: 100%;
+          max-height: 100%;
+          width: 100%;
+          height: auto;
+        }
+        // span{
+        //   position: absolute;
+        //   top: 0;
+        //   z-index: 1;
+        // }
+        span{
+          position: absolute;
+          width: 100%;
+          max-width: 100%;
+          height: 44.70rem;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: -1rem;
+          left: 0;
+          z-index: 1;
+          .galaxy{  
+            max-width: 100%;
+            max-height: 100%;
+            width: 80%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .home{
+    .bg-home{
+      .ignite{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding: 2rem 2rem 0;
+        .img-1{
+          margin-top: 0;
+        }
+      }
+      .landing-page{
+        padding: 0;
+        .home-text{
+          align-items: center;
+          margin-top: 0.5rem;
+          margin-bottom: 1.5rem;
+          .star-2{
+            position: absolute;
+            top: -2rem;
+            right: 9rem;
+          }
+        }
+        .participate{
+          width: 65%;
+          margin-bottom: 1rem;
+        }
+        .time{
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

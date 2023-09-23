@@ -1,0 +1,122 @@
+.sponsors{
+  border-top: 1px solid #ffffff2e;
+  padding: 6rem 8rem;
+  .heading{
+    color: #FFF;
+    text-align: center;
+    .title{
+      font-family: Clash Display;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 27.5px;
+      margin-bottom: 1rem;
+    }
+    .desc{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.5px;
+      max-width: 25%;
+      margin: auto;
+    }
+  }
+  .container-1{
+    position: relative;
+    background: #ffffff03;
+    border: 1px solid #D434FE;
+    border-radius: 5px;
+    padding: 6rem 2rem !important;
+    margin-top: 5rem;
+
+    .company-logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+
+      .vertical-divider {
+        width: 4px;
+        height: 10rem;
+        background: #D434FE;
+      }
+      .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18.75rem;
+        height: 12.5rem;
+        border-bottom: 4px solid #D434FE;
+        .img-1{
+          width: 7.54rem;
+          height: 7rem;
+        }
+        .img-2{
+          width: 13.3rem;
+          height: 2.5rem;
+        }
+        .img-3{
+          width: 8.2rem;
+          height: 6.7rem;
+        }
+        .img-4{
+          width: 9rem;
+          height: 6.85rem;
+        }
+        .img-5{
+          width: 12.8rem;
+          height: 1.3rem;
+        }
+        .img-6{
+          width: 14.4rem;
+          height: 1.3rem;
+        }
+        .design{
+          .studios{
+            color: #FFF;
+            text-align: end;
+            font-family: Voces;
+            font-size: 0.7rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27.5px; /* 250% */
+          }
+        }
+      }
+      .no-border{
+        border: none;
+      }
+    }
+  }
+
+  .star-1{
+    position: absolute;
+    top: -2rem;
+    left: 4rem;
+  }
+  .star-2{
+    position: absolute;
+    right: 40rem;
+    top: 6rem;
+  }
+  .star-3{
+    position: absolute;
+    right: 40rem;
+  }
+}
+
+@media (max-width: 768px){
+  .sponsors{
+    .heading{
+      .desc{
+        max-width: 70%;
+      }
+    }
+    .container-1{
+      padding: 3rem 2rem !important;
+    }
+  }
+
+}

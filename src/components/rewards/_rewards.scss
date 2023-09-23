@@ -1,0 +1,150 @@
+.rewards{
+  position: relative;
+  border-top: 1px solid #ffffff2e;
+  padding: 3rem 8rem 8rem;
+  .img-top{
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+  }
+  .trophy{
+    position: relative;
+    margin-top: 5rem;
+    .trophy-img{
+      width: 34.25rem;
+      height: 30rem;
+    }
+    .star{
+      position: absolute;
+      bottom: -3rem;
+      left: 12rem;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+  &-container{
+    .heading{
+      display: flex;
+      color: #FFF;
+      font-family: Clash Display;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      img{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      &-1{
+        padding-left: 20%;
+        margin: 0 auto;
+        .reward{
+          color: #D434FE;
+        }
+        .desc{
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 27.5px;
+          width: 80%;
+        }
+      }
+    }
+  }
+  &-prizes{
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    margin-top: 15rem;
+    .box{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2rem;
+      background: #d434fe1f;
+      color: #FFF;
+      border: 1px solid #D434FE;
+      border-radius: 8px;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      padding-top: 8rem;
+      padding-bottom: 1.5rem;
+      .img-1{
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        right: 0;
+        width: 11.2rem;
+        height: 11.25rem;
+      }
+      .img-2{
+        position: absolute;
+        top: -12rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 16rem;
+        height: 16rem;
+      }
+      .runner{
+        font-size: 1.5rem;
+      }
+      .amount{
+        color: #D434FE;
+      }
+      .first-amount{
+        color: #903AFF;
+      }
+    }
+    .first{
+      background: #903aff1f;
+      border: 1px solid #903AFF;
+      padding-bottom: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    .star-2{
+      position: absolute;
+      top: -12rem;
+      left: 2.5rem;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+    .star-3{
+      position: absolute;
+      top: -4rem;
+      right: 0;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+    .star-4{
+      position: absolute;
+      bottom: -3rem;
+      right: 12rem;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}
+
+@media(max-width: 768px){
+  .rewards{
+    position: relative;
+    padding: 3rem 2rem 8rem;
+    .trophy{
+      margin-top: 12rem;
+    }
+    &-container{
+      .heading{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 3rem;
+      }
+    }
+  }
+}

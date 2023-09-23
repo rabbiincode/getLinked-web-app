@@ -1,0 +1,63 @@
+.intro{
+  background: #140D27;
+  border-top: 1px solid #ffffff2e;
+  padding: 3rem 8rem;
+  .idea{
+    position: relative;
+    display: flex;
+    align-items: end;
+    .img-1{
+      width: 30.6rem;
+      height: 30.6rem;
+    }
+    .img-2{
+      position: absolute;
+      top: 10rem;
+      left: -3rem;
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+  }
+  &-content{
+    width: 50%;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    .title{
+      .tech{
+        color: #D434FE;
+      }
+    }
+    .text{
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.5px;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .intro{
+    padding: 3rem 2rem 4rem;
+    .idea{
+      margin-bottom: 8rem;
+      .img-3{
+        position: absolute;
+        bottom: -8rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &-content{
+      width: 100%;
+      text-align: center;
+      .title{
+        margin: auto;
+      }
+    }
+  }
+}

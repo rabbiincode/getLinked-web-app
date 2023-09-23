@@ -1,0 +1,96 @@
+.faqs{
+  border-top: 1px solid #ffffff2e;
+  padding: 6rem 8rem 3rem;
+
+  .faq-container-1{
+    position: relative;
+    &-content{
+      position: relative;
+      color: #FFF;
+      font-family: Clash Display;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      margin-bottom: 2.5rem;
+      .tech{
+        color: #D434FE;
+      }
+      .text{
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px;
+        width: 55%;
+      }
+    }
+    .star{
+      position: absolute;
+      top: -2rem;
+      left: -1.5rem;
+    }
+  }
+  .faq-container-2{
+    position: relative;
+    .img{
+      width: 46rem;
+      height: 46rem;
+    }
+  }
+
+  .img-2{
+    position: absolute;
+    top: -3.5rem;
+    left: 15rem;
+    width: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .img-3{
+    position: absolute;
+    top: 0;
+    right: 18rem;
+    width: 2rem;
+    width: 2rem;
+  }
+
+  .img-4{
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    width: 2rem;
+    width: 2rem;
+  }
+
+  .img-5{
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+  }
+
+  .img-6{
+    position: absolute;
+    bottom: 0;
+    right: 8rem;
+  }
+  .img-7{
+    position: absolute;
+    bottom: 21rem;
+    left: 3rem;
+  }
+}
+
+@media (max-width: 768px){
+  .faqs{
+    gap: 10rem;
+    padding: 6rem 2rem 3rem;
+    .faq-container-1{
+    &-content{
+      text-align: center;
+      .text{
+        margin: 0 auto;
+      }
+    }
+    }
+  }
+}

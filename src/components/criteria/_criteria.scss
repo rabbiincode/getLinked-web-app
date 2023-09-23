@@ -1,0 +1,127 @@
+.criteria{
+  border-top: 1px solid #ffffff2e;
+  padding: 4rem 8rem 8rem;
+  .heading{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    .tech{
+      color: #D434FE;
+    }
+    .img{
+      width: 50%;
+      text-align: center;
+    }
+    .judge{
+      width: 50%;
+    }
+  }
+  .attributes{
+    position: relative;
+    width: 44.5rem;
+    height: 36.7rem;
+    width: 50%;
+    z-index: 1;
+    .img-1{
+      position: absolute;
+      top: 0;
+      z-index: 1;
+    }
+    .img-2{
+      position: absolute;
+      top: -1rem;
+      left: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(270deg, #8F01FE 0%, #FF2674 97.24%);
+      width: 8rem;
+      height: 8rem;
+      transition: 0.3s;
+      border-radius: 50%;
+      z-index: 0;
+    }
+    .img-3{
+      position: absolute;
+      bottom: 8rem;
+      right: 20rem;
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+    .img-4{
+      position: absolute;
+      bottom: -1rem;
+      right: 4rem;
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+  }
+  &-content{
+    width: 50%;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    .heading-1{
+      display: none;
+      .tech{
+        color: #D434FE;
+      } 
+    }
+    .text-content{
+      margin: 1.2rem 0 3.2rem 0;
+      p{
+        margin-bottom: 1.2rem;
+      }
+      .text{
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.5px;
+        span{
+          color: #FF26B9;
+        }
+      }
+      .text{
+        p{
+          margin-top: 0
+        };
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .criteria{
+    padding: 1rem 2rem 8rem;
+    .heading{
+      .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .judge{
+        display: none;
+      }
+    }
+    .attributes{
+      width: 100%;
+      margin-top: 4rem;
+    }
+    &-content{
+      width: 100%;
+      margin-top: 1rem;
+      text-align: center;
+      .heading-1{
+        display: block;
+      }
+      .text-content{
+        width: 100%;
+      }
+    }
+  }
+}
