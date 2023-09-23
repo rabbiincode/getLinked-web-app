@@ -64,7 +64,7 @@ const Home = () => {
                 <span>getlinked Tech</span>
               </span>
             </span>
-            <span className='hackathon flex'>
+            <span className='hackathon flex max-md:items-center'>
               Hackathon<span className='number'> 1.0</span>
               <img src='/images/home/chain.png' alt='img'/>
               <img src='/images/home/fire.png' alt='img'/>

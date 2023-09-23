@@ -59,9 +59,9 @@ const AccordionToggle = () => {
                 </div>
               </CustomToggle>
             </Card.Header>
-            <Accordion.Collapse eventKey="0">
+            {/* <Accordion.Collapse eventKey="0">
               <Card.Body>{content.answer}</Card.Body>
-            </Accordion.Collapse>
+            </Accordion.Collapse> */}
           </Card>
         ))
       }
